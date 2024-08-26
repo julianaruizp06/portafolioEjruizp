@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import hero from '../../assets/me.webp';
+import hero from '../../assets/20240511_192004 (1).jpg';
 import styles from './AboutMe.module.css';
 import { constants } from '../../utils/constants';
 
@@ -68,46 +68,42 @@ const skills = [
 function About() {
   return (
     <div className={styles.me}>
-      <h2>Quien soy y más sobre mi</h2>
+      <h2>Quién soy y más sobre mí</h2>
       <p>
-        Me llamo Antonio Ayola soy un desarrollador de Software de México con
-        gran afición al mundo Tecnológico, autodidacta y apasionado por aprender
-        más todos los días sobre nuevas tecnologias. <br />
-        <br />A lo largo de mi aventura en el mundo del desarrollo web, me
-        involucre en el desarrollo de varios proyectos, proponiéndome retos, los
-        cuales me enseñaron a corregir mis propios errores al desarrollar
-        software.
+        Me llamo Erika Juliana Ruiz. Soy una desarrolladora Front End enfocada
+        en el desarrollo y las arquitecturas de software, con un interés
+        particular en la Inteligencia Artificial.
+        <br />
+        <br />
+        Poseo conocimientos sólidos en HTML, CSS, JavaScript, React y SQL.
+        Cuento con certificaciones en UX/UI y RPA, lo que me permite diseñar
+        interfaces de usuario intuitivas y automatizar procesos de manera
+        eficiente. Además, mi enfoque en el análisis de datos me capacita para
+        tomar decisiones informadas y optimizar proyectos.
+        <br />
+        <br />
+        Estoy en constante búsqueda de oportunidades y desafíos que me permitan
+        aprender y desarrollar nuevas habilidades en un entorno dinámico.
       </p>
+
       <h2>Trayectoria</h2>
       <p>
         Experiencia en dirección de equipos pequeños y en la participación de
         todo proceso de una aplicación (desde el planteamiento inicial,
         extracción de funcionalidades necesarias, desarrollo, pruebas y
         evolución).
-        <br /> <br />
+        <br />
         Busco ampliar mis conocimientos en la programación y obtener experiencia
         formando parte de un productivo y exitoso equipo. Tengo habilidad para
         adaptarme rapido a otras tecnologias. Estoy buscando un proyecto
         adecuado a mis habilidades que me permita desarrollarme, que me ponga
         nuevos retos y nuevos aprendizajes.
-        <br /> <br />I have a basic level of english, knowing the necessary for
-        communication, as well as consume documentation content in this
-        language.
+        <br />
       </p>
       <h2>Intereses y Hobbies</h2>
       <p>
-        Interesado en aprender más sobre testing, principios de clean code,
-        mejorar mi ingles y escalabilidad en general.
-        <br /> En mi tiempo suelo tocar la guitarra 🎸, armar cubos rubik{' '}
-        <img
-          src="https://img.icons8.com/ios/20/000000/rubiks-cube.png"
-          alt="rubik"
-        />{' '}
-        , hacer{' '}
-        <a href={constants.profilesUrls.instagram} title="Instagram Profile">
-          origami
-        </a>{' '}
-        🪁 y jugar videojuegos 🎮.
+        Interesada en aprender más sobre data analytics, data science, y el RPA
+        <br /> En mi tiempo suelo hacer ejercicio, ver series y cocinar
       </p>
     </div>
   );
@@ -139,16 +135,34 @@ function Skills() {
 function Education() {
   return (
     <div className={styles.educationSection}>
-      <h2>Ingeniería en Software (2015-2019) (Titulado)</h2>
-      <h4>Universidad Politécnica de Pachuca</h4>
-      <span>
-        Universidad Politécnica de Pachuca - Carretera Pachuca – Ciudad Sahagún
-        Km. 20, Ex-Hacienda de Santa Bárbara, 43830
-      </span>
+      <h2>Desarrollo Web Full Stack (2022) (Titulado)</h2>
+      <h4>Enjoy</h4>
+      <span>Enyoi SAS NIT 901616585</span>
       <p>
-        Durante mis estudios en la UPP obtuve capacidad de responsabilidad,
-        esfuerzo y sacrificio, forme parte de equipos de trabajo y trabaje en
-        proyectos de IA.
+        Mi experiencia en enyoi fue enriquecedora, con clases desafiantes y
+        recursos accesibles. Los proyectos grupales me ayudaron a desarrollar
+        habilidades adicionales. Salí con sólidas bases tecnológicas y ahora
+        estoy en mi primera experiencia laboral .
+      </p>
+      <br />
+
+      <h2>Administración de Empresas (2014) (Titulado)</h2>
+      <h4>Universidad Nacional de Colombia</h4>
+      <span>Sede Manizales</span>
+      <p>
+        Como adminitradora de empresas aprendi a planificar, organizar, dirigir
+        y controlar recursos para alcanzar los objetivos organizacionales
+        eficientemente.
+      </p>
+      <br />
+
+      <h2>Automatización Industrial (2010) (Titulado)</h2>
+      <h4>Sena</h4>
+      <span>Sena regional Caldas</span>
+      <p>
+        Como automatizadora indsutrial apreni a diseñar, implementar y mantener
+        sistemas automatizados para optimizar la producción, mejorar la
+        eficiencia y asegurar la calidad en procesos industriales.
       </p>
     </div>
   );
@@ -161,136 +175,97 @@ function Studies() {
       <ul className={styles.studiesContainer}>
         <li>
           <a
-            title="Certificado Ingles"
+            title="Certificado Diseño UX/UI"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.inglesB1}
+            href={constants.cursos.ux}
           >
-            • Ingles B1 MCER - CENLEX IPN - 11 de Enero 2022
+            • Certificado Diseño UX/UI -Jump! Educación Nearsure - Agosto 2024
           </a>
         </li>
         <li>
           <a
-            title="Titulo Ing. en Software"
+            title="Curso Básico RPA PIX"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.ingSoftware}
+            href={constants.cursos.basicoRpa}
           >
-            • Titulo Ing. en Software - UPP - 17 de Enero 2020
-          </a>
-        </li>
-        <li>
-          <a
-            title="Platzi Profile"
-            target="_blank"
-            rel="noreferrer noopener"
-            href="https://platzi.com/p/AntonioAyola/"
-          >
-            • Perfil Platzi
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado Ingles"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.inglesC1}
-          >
-            • EF SET English Certificate 70/100 (C1 Advanced) - EF Standard
-            English Test (EF SET) - 06 de Octubre 2022
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado SCRUM"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.scrumStudy}
-          >
-            • Scrum Fundamentals Certified - SCRUMstudy - 29 de Enero 2023
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado NoCountry"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.noCountry}
-          >
-            • No Country - Seleccionado7 - 1 de Mayo 2023
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado Frontend"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.frontendDeveloper}
-          >
-            • Curso de Frontend Developer - Platzi
-          </a>
-        </li>
-        <li>
-          <a
-            title="Certificado SCRUM"
-            target="_blank"
-            rel="noreferrer noopener"
-            href={constants.cursos.scrum}
-          >
-            • Curso de SCRUM - Linkedin
+            • Curso Básico RPA PIX Studio - Agosto 2024
           </a>
         </li>
 
         <li>
           <a
-            title="Certificado Fundamentos ing."
+            title="Curso Avanzado RPA PIX"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.ingDeSoftware}
+            href={constants.cursos.avanzadoRpa}
           >
-            • Curso de Fundamentos de Ingeniería de Software - Platzi
+            • Curso Avanzado RPA PIX - Agosto 2024
           </a>
         </li>
         <li>
           <a
-            title="Certificado Algoritmos"
+            title="Curso Avanzado RPA PIX"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.algoritmosPensamientoLogico}
+            href={constants.cursos.path}
           >
-            • Algoritmos y Pensamiento Lógico - Platzi
+            • Introducción a RPA y Automatización UI path- Diciembre 2023
           </a>
         </li>
         <li>
           <a
-            title="Certificado Computación"
+            title="Mini Program Development Level 1"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.computacionBasica}
+            href={constants.cursos.miniprogram}
           >
-            • Curso de Computación Básica - Platzi
+            • Mini Program Development Level 1 -Septiembre 2023
           </a>
         </li>
         <li>
           <a
-            title="Certificado API REST"
+            title=" Curso Básico de programación"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.introduccionAPIRest}
+            href={constants.cursos.programacion}
           >
-            • Curso de Introducción a API REST - EDTeam
+            • Curso Básico de Programación Básica Platzi -Octubre 2022
           </a>
         </li>
         <li>
           <a
-            title="Certificado GIT"
+            title="Curso de Pensamiento Lógico: Lenguajes de Programación"
             target="_blank"
             rel="noreferrer noopener"
-            href={constants.cursos.git}
+            href={constants.cursos.pensamientoLogico}
           >
-            • Curso de GIT - Udemy
+            • Curso de Pensamiento Lógico Platzi: Lenguajes de Programación-
+            Agosto 2022
           </a>
         </li>
+        <li>
+          <a
+            title=" Curso Básico de Python"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.Python}
+          >
+            • Curso Básico de Python Platzi -Julio 2022
+          </a>
+        </li>
+        <li>
+          <a
+            title="Curso Básico de JavaScript"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.javaScript}
+          >
+            • Curso Básico de JavaScript Platzi- Junio 2022
+          </a>
+        </li>
+
         {/*  <li>
           <a
             target="_blank"
@@ -333,14 +308,14 @@ function AboutMe() {
     <section className={styles.aboutMe} id="about">
       <div className={styles.aboutContainer}>
         <div className={styles.AboutLeft}>
-          <span>Actualizado el 5 de Marzo, 2022</span>
+          <span>Actualizado el 21 de Agosto, 2024</span>
           <div className={styles.leftImg}>
             <img
               src={hero}
-              alt="antonio Ayola Profile"
+              alt="E Juliana Ruiz Profile"
               className={styles.img}
             />
-            <h1>{'<Antonio Ayola/>'}</h1>
+            <h1>{'<Erika Juliana Ruiz/>'}</h1>
             <a
               title="Buy me a coffe"
               className={styles.supportBtn}
@@ -348,13 +323,13 @@ function AboutMe() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              APOYAME
+              Contáctame
             </a>
             {/* <button className={styles.supportBtn} type="button">
               APOYAME
             </button> */}
-            <p>Desarrollo software con ❤️ y ☕️</p>
-            <p> &#x1F1F2;&#x1F1FD;</p>
+            <p>Desarrollo de software con ❤️ </p>
+            <p> y mucho ☕️</p>
           </div>
         </div>
         <div className={styles.AboutRight}>

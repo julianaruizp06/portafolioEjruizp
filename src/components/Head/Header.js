@@ -5,7 +5,7 @@ import useToggle from '../../utils/hooks/useToggle';
 import useScrollInto from '../../utils/hooks/useScrollInto';
 import useScrollSpy from '../../utils/hooks/useScrollSpy';
 
-import logo1 from '../../assets/logo_fondo_blanco_4.webp';
+import logo1 from '../../assets/20240511_192004 (1).jpg';
 import styles from './Header.module.css';
 
 import Modal from '../Modal/Modal';
@@ -97,12 +97,12 @@ const Header = () => {
       </Suspense>
       <header className={activeNav ? styles.headerActive : styles.header}>
         <nav className={styles.nav}>
-          {/* <button type="button" onClick={scrollTop}>
+          {/*     <button type="button" onClick={scrollTop}>
             <img
               width="200px"
               height="50px"
-              src=""
-              alt=""
+              src={logo1}
+              alt="<EJulianaRuiz/>"
               className={styles.logo}
             />
           </button> */}
@@ -133,20 +133,6 @@ const Header = () => {
             <li className="about">
               <a title="SOBRE MI" href="#!" onClick={() => setModal(true)}>
                 SOBRE MI
-              </a>
-            </li>
-            <li className="clients">
-              <a
-                title="Recomendaciones"
-                href="#!"
-                onClick={() => handleLink('clients')}
-              >
-                Recomendaciones
-              </a>
-            </li>
-            <li className="blog">
-              <a title="blog" href="#!" onClick={() => handleLink('blog')}>
-                blog
               </a>
             </li>
             <li className="contact">
@@ -234,20 +220,6 @@ const Header = () => {
                   }}
                 >
                   sobre mi
-                </a>
-              </li>
-              <li className="Recomendaciones">
-                <a
-                  title="contacto"
-                  href="#!"
-                  onClick={() => handleLink('clients')}
-                >
-                  Recomendaciones
-                </a>
-              </li>
-              <li className="blog">
-                <a title="blog" href="#!" onClick={() => handleLink('blog')}>
-                  blog
                 </a>
               </li>
               <li className="contact">
