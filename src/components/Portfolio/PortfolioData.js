@@ -3,8 +3,8 @@ const CATEGORIES = [
   'WEB DESIGN',
   'APPLICATION',
   'DESIGN',
-  'MOBILE',
-  'COLABORATION',
+  /* 'MOBILE',
+  'COLABORATION', */
 ];
 
 const data = [
@@ -84,7 +84,7 @@ const data = [
     },
   },
   {
-    id: 7,
+    id: 4,
     year: '2023',
     date: '21/05/2023',
     category: 'WEB DESIGN',
@@ -112,6 +112,30 @@ const data = [
     links: {
       code: 'https://github.com/Tono2007/slim-free-react-mui-template',
       page: 'https://slim-free-react-mui-template.netlify.app/',
+    },
+  },
+  {
+    id: 5,
+    year: '2024',
+    date: '21/08/202',
+    category: 'UX',
+    title: 'EMOCARE',
+    image: 'emo.svg',
+    technologies: [
+      'ReactJs',
+      'JS',
+      'MUI ',
+      'Dashboard Template',
+      'Netlify',
+      'Responsive',
+    ],
+    desc: `EMOCARE es una aplicación que busca brindar a las personas neurodivergentes
+     herramientas y estrategias personalizadas para gestionar sus tareas domésticas de
+      manera más eficiente, reduciendo el estrés asociado con estas actividades y 
+      mejorando su calidad de vida.`,
+    links: {
+      code: 'https://www.behance.net/gallery/205183529/Emocare',
+      page: 'https://www.behance.net/gallery/205183529/Emocare/',
     },
   },
 ];

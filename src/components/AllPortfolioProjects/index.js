@@ -13,10 +13,10 @@ const categories = [
   'TODOS',
   'DEVELOPMENT',
   'WEB DESIGN',
-  'APPLICATION',
+  'UX',
   'DESIGN',
-  'MOBILE',
-  'COLABORATION',
+  /*   'MOBILE',
+  'COLABORATION', */
 ];
 
 function Index() {
