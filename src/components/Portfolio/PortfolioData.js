@@ -88,36 +88,27 @@ const data = [
     year: '2023',
     date: '21/05/2023',
     category: 'WEB DESIGN',
-    title: 'Slim Mui Template',
-    image: 'slimMuiTemplate.webp',
+    title: 'Pet Shop',
+    image: 'PETsHOP.jpg',
     technologies: [
       'ReactJs',
       'JS',
-      'MUI ',
       'Dashboard Template',
       'Netlify',
       'Responsive',
     ],
-    desc: `Se trata de una plantilla construida con material-ui(MUI), puede ser usada para construir un panel administrador, analíticas, red social, etc.
-
-    Viene con muchos componentes y paginas demo preconstruidas reutilizables, cuenta con modo oscuro, responsive, code splitting y aliases por defecto. Por gusto personal agregue las guías de airbnb para el linter, pero puede ser cambiado.
-    
-    Guiándome  de otras platillas que usan las mismas tecnologías  genere una estructura de carpetas sencilla de usar, también viene con una versión  limpia que contiene solamente los componentes y estilos para empezar un nuevo proyecto rápidamente.
-    
-    Este proyecto me tomo casi 3 meses para la versión 1.0.0 y fue casi puro diseño, pude aprender a generar una versión y liberarla en las releases de github.
-    
-    En un futuro con tiempo podría agregar más componentes y páginas, además generar una mejor documentación y trabajar en las versiones de typescript, Next, CRA y Remix.
-    Este proyecto sé que me será útil también para uso personal cuando me soliciten algo similar.
+    desc: `Encuentras todo lo que tu mascota necesita para una vida feliz y saludable. Ofrecemos una amplia selección de alimentos, juguetes y accesorios para perros, gatos y otros animales,
+     con productos de calidad y un excelente servicio al cliente. ¡Tu compañero peludo merece lo mejor.
          `,
     links: {
-      code: 'https://github.com/Tono2007/slim-free-react-mui-template',
-      page: 'https://slim-free-react-mui-template.netlify.app/',
+      code: 'https://github.com/julianaruizp06/petShopEjr',
+      page: 'https://petshopejr.netlify.app/',
     },
   },
   {
     id: 5,
     year: '2024',
-    date: '21/08/202',
+    date: '21/08/2024',
     category: 'UX',
     title: 'EMOCARE',
     image: 'emo.svg',
