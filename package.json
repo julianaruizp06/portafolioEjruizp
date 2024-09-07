@@ -21,11 +21,11 @@
     "workbox-strategies": "^6.5.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "prebuild": "DISABLE_ESLINT=true",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "prebuild": "DISABLE_ESLINT=true",
+  "build": "react-scripts build",
+  "start": "react-scripts start",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
     
   },
   "browserslist": {
