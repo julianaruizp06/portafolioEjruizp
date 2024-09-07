@@ -58,6 +58,7 @@ const Footer = () => {
             type="button"
             className={styles.floatBtn}
             onClick={scrollTop}
+            aria-label="Regresar arriba"
           >
             <i className="fas fa-angle-double-up" />
           </button>

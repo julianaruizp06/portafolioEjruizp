@@ -139,6 +139,7 @@ const Contact = () => {
                   className="btnShadow"
                   target="_blank"
                   rel="noreferrer noopener"
+                  aria-label="Contact GitHub"
                 >
                   <i className="fa-brands fa-github" />
                 </a>
@@ -148,6 +149,7 @@ const Contact = () => {
                   className="btnShadow"
                   target="_blank"
                   rel="noreferrer noopener"
+                  aria-label="Contact LinkedIn"
                 >
                   <i className="fa-brands fa-linkedin-in" />
                 </a>
@@ -157,8 +159,9 @@ const Contact = () => {
                   className="btnShadow"
                   target="_blank"
                   rel="noreferrer noopener"
+                  aria-label="Contact WhatsApp"
                 >
-                  <i className="fab fa-whatsapp" />
+                  <i className="fa-brands fa-whatsapp" />
                 </a>
               </div>
             </div>

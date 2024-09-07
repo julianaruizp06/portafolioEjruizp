@@ -145,10 +145,16 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a title="config" href="#!" onClick={() => handleOpen()}>
+              <a
+                title="Configurar tema"
+                href="#!"
+                onClick={() => handleOpen()}
+                aria-label="Configurar tema"
+              >
                 <i className={styles.cogBtn} title="Theme Config" />
               </a>
             </li>
+
             {/*  <li>
               <button
                 className={styles.homeBtn}
@@ -232,7 +238,12 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a title="config" href="#!" onClick={() => handleOpen()}>
+                <a
+                  title="Configurar tema"
+                  href="#!"
+                  onClick={() => handleOpen()}
+                  aria-label="Configurar tema"
+                >
                   <i className={styles.cogBtn} title="Theme Config" />
                 </a>
               </li>
@@ -270,6 +281,7 @@ const Header = () => {
             type="button"
             title="Abrir Menu Lateral"
             name="Abrir Menu Lateral"
+            aria-label={Mobile ? 'Cerrar Menu Lateral' : 'Abrir Menu Lateral'}
           >
             <i
               className={
