@@ -20,13 +20,13 @@
     "workbox-routing": "^6.5.4",
     "workbox-strategies": "^6.5.4"
   },
-"scripts": {
-  "prebuild": "DISABLE_ESLINT=true",
-  "build": "react-scripts build",
-  "start": "react-scripts start",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "prebuild": "DISABLE_ESLINT=true",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -40,8 +40,6 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.5.1",
