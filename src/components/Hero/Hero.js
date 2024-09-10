@@ -99,13 +99,29 @@ function Hero() {
               </div>
             </div>
             <div className={`col_1 ${isInViewport ? styles.slideIn : ''}`}>
-              <h5>APRENDIENDO</h5>
+              <h5>Tecnologias</h5>
               <figure className={styles.skillBtn}>
                 <img
                   width="50px"
                   height="50px"
                   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
                   alt="react"
+                />
+              </figure>            
+              <figure className={styles.skillBtn}>
+                <img
+                  width="50px"
+                  height="50px"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="Js"
+                />
+              </figure>            
+              <figure className={styles.skillBtn}>
+                <img
+                  width="50px"
+                  height="50px"
+                  src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg"
+                  alt="python"
                 />
               </figure>
               <figure className={styles.skillBtn}>
@@ -120,16 +136,40 @@ function Hero() {
                 <img
                   width="50px"
                   height="50px"
-                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                  alt="Js"
+                  src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/mysql/mysql-original-wordmark.svg"
+                  alt="MySQL"
                 />
               </figure>
               <figure className={styles.skillBtn}>
                 <img
                   width="50px"
                   height="50px"
-                  src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg"
-                  alt="python"
+                  src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/postgresql/postgresql-original-wordmark.svg"
+                  alt="PostgreSQL"
+                />
+              </figure>
+              <figure className={styles.skillBtn}>
+                <img
+                  width="50px"
+                  height="50px"
+                  src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/mongodb/mongodb-original-wordmark.svg"
+                  alt="MongoDB"
+                />
+              </figure>
+              <figure className={styles.skillBtn}>
+                <img
+                  width="50px"
+                  height="50px"
+                  src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/figma/figma-original.svg"
+                  alt="Figma"
+                />
+              </figure>
+              <figure className={styles.skillBtn}>
+                <img
+                  width="50px"
+                  height="50px"
+                  src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/canva/canva-original.svg"
+                  alt="Canva"
                 />
               </figure>
             </div>

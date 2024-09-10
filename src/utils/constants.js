@@ -34,6 +34,9 @@ export const constants = {
     programacion:
       'https://drive.google.com/file/d/1QLXvwYWngxEB6OzrFT-XvItOnQ-gTm-k/view?usp=sharing',
   },
+  events:{
+    vtex: 'https://drive.google.com/file/d/1Z9-si0UzXLOSGITJHTpeSuGoDowNKTEH/view?usp=sharing',
+  },
   language: 'es_col',
   siteData: {
     /* siteUrl: 'antonioayola.netlify.app/', */

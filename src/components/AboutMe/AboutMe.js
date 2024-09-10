@@ -276,6 +276,19 @@ function Studies() {
           </a>
         </li> */}
       </ul>
+      <h2>Eventos</h2>
+      <ul className={styles.studiesContainer}>
+      <li>
+          <a
+            title="Hackathon AI VTEX 2023"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.events.vtex}
+          >
+            • Ganador Hackathon AI VTEX 2023
+          </a>
+        </li>
+      </ul>
     </>
   );
 }
@@ -293,10 +306,49 @@ function CV() {
 function Experience() {
   return (
     <>
-      <h2>Privado</h2>
-      <p>Dirigete a la sección de contacto.</p>
+    <button type="button" className="boxShadow" disabled>
+        <h4>Softgic Abril 2023</h4>
+      </button>
+      <br />
+      <h3>Desarrollador Frontend en Proyecto de Fábrica de Miniprograms</h3>
+      <h2>Claro</h2>
+      <br />
+      <p>    
+        Desarrollar un servicio APP dedicado al desarrollo,
+        revisión y publicación de Miniprograms (MP). Realizando Migracion a react Native 
+        de la app movil de Claro, implementando diferentes módulos, dar
+        soporte a la estabiliazación y resolución de bugs.
+      </p>
+      <ul className={styles.studiesContainer}>
+        <li>
+          <a>
+            •  Implementación de interfaces de usuario para la plataforma de gestión de Miniprograms, asegurando una experiencia de usuario intuitiva y responsiva.
+          </a>
+        </li>
+        <li>
+          <a>
+            • Conexión de la interfaz con las APIs backend para la gestión de Miniprograms.
+          </a>
+        </li>
+        <li>
+          <a>
+            • Asegurar la calidad del código mediante revisiones regulares, pruebas y optimización del rendimiento de la aplicación.
+          </a>
+        </li>
+        <li>
+          <a>
+            • Implementación de mejoras continuas y corrección de errores en la interfaz de usuario y experiencia del usuario.
+          </a>
+        </li>
+        <li>
+          <a>
+            • Provisión de documentación detallada y soporte inicial para el equipo de mantenimiento y los usuarios.
+          </a>
+        </li>
+        </ul>
+
       <button type="button" className="boxShadow" disabled>
-        Timeline...
+        <h4>.......</h4>
       </button>
     </>
   );
