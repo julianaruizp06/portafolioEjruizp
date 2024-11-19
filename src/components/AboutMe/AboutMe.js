@@ -64,6 +64,16 @@ const skills = [
     img: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postgresql/postgresql-plain-wordmark.svg',
     href: 'https://www.figma.com/',
   },
+  {
+    name: 'sql',
+    img: 'https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqldeveloper/sqldeveloper-original.svg',
+    href: 'https://learn.microsoft.com/es-es/sql/sql-server/?view=sql-server-ver16',
+  },
+  {
+    name: 'Power Bi',
+    img: 'https://raw.githubusercontent.com/microsoft/PowerBI-Icons/24f1db8bdfab951c25db591772140d2f4ec5bc1e/SVG/Power-BI.svg',
+    href: 'https://www.microsoft.com/es-es/power-platform/products/power-bi',
+  },
 ];
 function About() {
   return (
@@ -173,6 +183,17 @@ function Studies() {
     <>
       <h2>Certificados y cursos</h2>
       <ul className={styles.studiesContainer}>
+      <li>
+          <a
+            title="Certificado Diseño UX/UI"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.data}
+          >
+            • Certificado Data analytics -Jump! Educación Nearsure - Noviembre 2024
+          </a>
+        </li>
+
         <li>
           <a
             title="Certificado Diseño UX/UI"

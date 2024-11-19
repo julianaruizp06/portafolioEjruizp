@@ -172,6 +172,14 @@ function Hero() {
                   alt="Canva"
                 />
               </figure>
+              <figure className={styles.skillBtn}>
+                <img
+                  width="50px"
+                  height="50px"
+                  src='https://raw.githubusercontent.com/microsoft/PowerBI-Icons/24f1db8bdfab951c25db591772140d2f4ec5bc1e/SVG/Power-BI.svg'
+                  alt="Power Bi"
+                />
+              </figure>
             </div>
           </div>
         </div>

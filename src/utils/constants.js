@@ -33,6 +33,8 @@ export const constants = {
       'https://drive.google.com/file/d/1CPf_unvZGi5MZ0AzFpCliIwdYeSNEjR6/view?usp=sharing',
     programacion:
       'https://drive.google.com/file/d/1QLXvwYWngxEB6OzrFT-XvItOnQ-gTm-k/view?usp=sharing',
+    data:
+      'https://drive.google.com/file/d/1DevoTDgKlvRfXpKN94e9LCoaN7Vd1DsN/view?usp=sharing',
   },
   events:{
     vtex: 'https://drive.google.com/file/d/1Z9-si0UzXLOSGITJHTpeSuGoDowNKTEH/view?usp=sharing',
