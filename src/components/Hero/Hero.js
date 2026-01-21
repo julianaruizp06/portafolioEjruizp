@@ -56,9 +56,11 @@ function Hero() {
             />
           </h2>
           <h3>
-            Con gran interés en el mundo TECH, tanto Frontend como Backend;
-            persiguiendo nuevos retos y explorando continuamente las nuevas
-            tendencias.
+           Profesional apasionado por el mundo de los datos,
+            con sólida base técnica en desarrollo Frontend.
+            Me mueve la curiosidad constante por comprender,
+            analizar y extraer valor de los datos, aplicando tecnología para transformar 
+            información en decisiones estratégicas. 
             {/* Experiencia en Creación, prototipado y desarrollo de
             productos digitales innovadores centrados en el usuario. */}
           </h3>

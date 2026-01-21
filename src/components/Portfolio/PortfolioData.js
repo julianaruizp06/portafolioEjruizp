@@ -1,4 +1,35 @@
 const data = [
+   {
+    id: 0,
+    year: '2025',
+    date: '16/10/2025',
+    category: 'WEB DESIGN',
+    title: 'Blog Violetta Serna',
+    image: 'blogVioletta.svg',
+    technologies: [
+      'PWA',
+      'React',
+      'CSS Modules',
+      'Responsive',
+      'Neumorphism',
+      'Netlify',
+      'Markdown',
+      'HTML',
+      'JS',
+      'react-transition-group',
+      'Formspree',
+      'Eslint',
+      'Prettier',
+    ],
+    desc: `Este proyecto ha sido una labor de amor, diseñado para reflejar mi pasión y habilidades.
+     He invertido mucho tiempo en crear un portafolio que no solo muestre mi trabajo, sino también mi e
+     nfoque estético y funcional.Este portafolio está construido como una Progressive Web App (PWA), 
+     lo que permite instalarlo directamente en tu dispositivo para una experiencia más inmersiva y accesible.`,
+    links: {
+      code: 'https://github.com/julianaruizp06/blog-violetta',
+      page: 'https://blogvioletta.netlify.app/',
+    },
+  },
   {
     id: 1,
     year: '2024',
@@ -32,8 +63,8 @@ const data = [
   },
   {
     id: 2,
-    year: '2023',
-    date: '21/3/2023',
+    year: '2024',
+    date: '21/3/2024',
     category: 'DEVELOPMENT',
     title: 'Autotrend Landing Page',
     image: 'landingcars.svg',

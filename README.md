@@ -4,12 +4,6 @@ Este proyecto es mi portafolio profesional donde muestro mis skills, que experie
 
 Este portafolio es una PWA, asi que puedes instalar la aplicacion en tu dispositivo.
 
-## **CAPTURAS**
-
-![img](src/assets/logo_fondo_blanco_4.webp)
-
-![img](src/assets/portafolio/portafolio.webp)
-![img](src/assets/portafolio/portafolioBlack.webp)
 
 ## **TECNOLOGIAS**
 

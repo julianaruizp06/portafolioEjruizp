@@ -39,6 +39,12 @@ const skills = [
     img: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
     href: 'https://postman.com',
   },
+   {
+    name: 'Miniprogram',
+    img: 'https://i.ibb.co/NnTkJ5vG/imagen-3.png',
+    href: 'https://miniprogram.alipay.com/', 
+
+  },
   {
     name: 'Python',
     img: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
@@ -74,6 +80,20 @@ const skills = [
     img: 'https://raw.githubusercontent.com/microsoft/PowerBI-Icons/24f1db8bdfab951c25db591772140d2f4ec5bc1e/SVG/Power-BI.svg',
     href: 'https://www.microsoft.com/es-es/power-platform/products/power-bi',
   },
+   {
+    name: '',
+    img: 'https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+    href: 'https://aws.amazon.com', 
+
+  },
+ 
+  {
+    name: '',
+    img: 'https://i.ibb.co/1ffGrnJm/imagen-4.png',
+    href: 'https://spark.apache.org/', 
+
+  },
+ 
 ];
 function About() {
   return (
@@ -86,20 +106,23 @@ function About() {
         <br />
         <br />
         Poseo conocimientos sólidos en HTML, CSS, JavaScript, React y SQL.
-        Cuento con certificaciones en UX/UI y RPA, lo que me permite diseñar
+        Cuento con certificaciones en UX/UI, análisis de datos y RPA, lo que me permite diseñar
         interfaces de usuario intuitivas y automatizar procesos de manera
         eficiente. Además, mi enfoque en el análisis de datos me capacita para
         tomar decisiones informadas y optimizar proyectos.
         <br />
         <br />
-        Estoy en constante búsqueda de oportunidades y desafíos que me permitan
-        aprender y desarrollar nuevas habilidades en un entorno dinámico.
+        Actualmente me encuentro en formación de Ingeniería de Datos, 
+        enfocado en el diseño y optimización de pipelines escalables, 
+        automatización de flujos ETL y gestión de infraestructuras cloud.
+         Habilidades en Python, SQL, Spark y herramientas de orquestación como Airflow. 
+         Orientado a convertir datos en activos estratégicos para la toma de decisiones.
       </p>
 
       <h2>Trayectoria</h2>
       <p>
-        Experiencia en dirección de equipos pequeños y en la participación de
-        todo proceso de una aplicación (desde el planteamiento inicial,
+        Experiencia en dirección de equipos pequeños y en la participación deL
+         proceso de una aplicación (desde el planteamiento inicial,
         extracción de funcionalidades necesarias, desarrollo, pruebas y
         evolución).
         <br />
@@ -109,6 +132,7 @@ function About() {
         adecuado a mis habilidades que me permita desarrollarme, que me ponga
         nuevos retos y nuevos aprendizajes.
         <br />
+        
       </p>
       <h2>Intereses y Hobbies</h2>
       <p>
@@ -145,6 +169,17 @@ function Skills() {
 function Education() {
   return (
     <div className={styles.educationSection}>
+      <h2>Ingeniería de datos & big data Expert (En formación)</h2>
+      <h4>Acelerati</h4>
+      <span>administrador@acelerati.co</span>
+      <p>
+        La fromación en Ingeniería de Datos ha sido enriquecedora: 
+        clases desafiantes, recursos accesibles y proyectos grupales que me
+        permiten afianzar flujos ETL, modelado de datos y trabajo colaborativo. des esta manera
+        obtener bases sólidas en Python, SQL y herramientas cloud, 
+        icando estos conocimientos en entornos reales.
+      </p>
+      <br />
       <h2>Desarrollo Web Full Stack (2022) (Titulado)</h2>
       <h4>Enjoy</h4>
       <span>Enyoi SAS NIT 901616585</span>
@@ -170,7 +205,7 @@ function Education() {
       <h4>Sena</h4>
       <span>Sena regional Caldas</span>
       <p>
-        Como automatizadora indsutrial apreni a diseñar, implementar y mantener
+        Como automatizadora indsutrial aprendi a diseñar, implementar y mantener
         sistemas automatizados para optimizar la producción, mejorar la
         eficiencia y asegurar la calidad en procesos industriales.
       </p>
@@ -183,6 +218,76 @@ function Studies() {
     <>
       <h2>Certificados y cursos</h2>
       <ul className={styles.studiesContainer}>
+        <li>
+          <a
+            title="Certificado Fundamentos ingeniería de datos"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.pyhtonFundamentos}
+          >
+            • Certificado fundamentos de python -Platzi -Noviembre 2025
+          </a>
+        </li>
+        <li>
+          <a
+            title="Certificado Fundamentos ingeniería de datos"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.pyhtonData}
+          >
+            • Certificado pyhton para ciencia de datos -Platzi -Noviembre 2025
+          </a>
+        </li>
+        <li>
+          <a
+            title="Certificado Fundamentos ingeniería de datos"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.dockerFundamentos}
+          >
+            • Certificado docker fundamentos -Platzi -Noviembre 2025
+          </a>
+        </li>
+         <li>
+          <a
+            title="Certificado Fundamentos ingeniería de datos"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.awsFundamentos}
+          >
+            • Certificado Intriduccion a aws: Fundamentos del cloud computing -Platzi -Noviembre 2025
+          </a>
+        </li>
+         <li>
+          <a
+            title="Certificado Fundamentos ingeniería de datos"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.dataScience}
+          >
+            • Certificado ciencia de datos para analisis de negocio -Platzi -Octubre 2025
+          </a>
+        </li>
+          <li>
+          <a
+            title="Certificado Fundamentos ingeniería de datos"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.fundamentosdata}
+          >
+            • Certificado Fundamentos ingeniería de datos -Platzi -Octubre 2025
+          </a>
+        </li>
+         <li>
+          <a
+            title="Certificado Diseño UX/UI"
+            target="_blank"
+            rel="noreferrer noopener"
+            href={constants.cursos.data}
+          >
+            • Certificado Data analytics -Jump! Educación Nearsure - Noviembre 2024
+          </a>
+        </li>
       <li>
           <a
             title="Certificado Diseño UX/UI"
@@ -245,7 +350,7 @@ function Studies() {
             • Mini Program Development Level 1 -Septiembre 2023
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             title=" Curso Básico de programación"
             target="_blank"
@@ -285,7 +390,7 @@ function Studies() {
           >
             • Curso Básico de JavaScript Platzi- Junio 2022
           </a>
-        </li>
+        </li> */}
 
         {/*  <li>
           <a
@@ -313,7 +418,7 @@ function Studies() {
     </>
   );
 }
-function CV() {
+/* function CV() {
   return (
     <>
       <h2>CV Privado</h2>
@@ -323,7 +428,7 @@ function CV() {
       </button>
     </>
   );
-}
+} */
 function Experience() {
   return (
     <>
@@ -381,7 +486,7 @@ function AboutMe() {
     <section className={styles.aboutMe} id="about">
       <div className={styles.aboutContainer}>
         <div className={styles.AboutLeft}>
-          <span>Actualizado el 21 de Agosto, 2024</span>
+          <span>Actualizado el 20 de Enero, 2026</span>
           <div className={styles.leftImg}>
             <img
               src={hero}
@@ -401,7 +506,7 @@ function AboutMe() {
             {/* <button className={styles.supportBtn} type="button">
               APOYAME
             </button> */}
-            <p>Desarrollo de software con ❤️ </p>
+            <p>Desarrollo de software y análisis de datos con ❤️ </p>
             <p> y mucho ☕️</p>
           </div>
         </div>
@@ -465,14 +570,14 @@ function AboutMe() {
                 {/* <span className={styles.divider}>|</span> */}
               </li>
               <li className={activeSection === 5 ? styles.active : null}>
-                <button
+               {/*  <button
                   type="button"
                   onClick={() => setActiveSection(5)}
                   className={styles.tabBtn}
                   aria-label="cv"
                 >
                   CV
-                </button>
+                </button> */}
                 {/* <span className={styles.divider}>|</span> */}
               </li>
               {/* <li>
@@ -487,7 +592,7 @@ function AboutMe() {
             {activeSection === 2 && <Education />}
             {activeSection === 3 && <Studies />}
             {activeSection === 4 && <Experience />}
-            {activeSection === 5 && <CV />}
+           {/*  {activeSection === 5 && <CV />} */}
           </div>
         </div>
       </div>
